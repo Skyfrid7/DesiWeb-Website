@@ -1,0 +1,14 @@
+$prim: #fff;
+$sec: #2CA1E2;
+$third: #F1F1F1;
+
+$white: #FFF;
+$black: #000;
+
+$d-prim: darken($prim, 20%);
+$d-sec: darken($sec, 20%);
+$d-third: darken($third ,20%);
+
+$l-prim: lighten($prim, 20%);
+$l-sec: lighten($sec, 20%);
+$l-third: lighten($third, 20%);
