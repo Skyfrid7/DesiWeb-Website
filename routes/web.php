@@ -15,9 +15,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'accueil')->name('welcome');
 
-Route::view('/', 'services')->name('services');
+Route::view('services', 'services')->name('services');
 
-Route::view('/', 'realisations')->name('realisations');
+Route::view('realisations', 'realisations')->name('realisations');
 
 //Contact
 Route::get('contact', 'ContactController@create')->name('contact.create');
