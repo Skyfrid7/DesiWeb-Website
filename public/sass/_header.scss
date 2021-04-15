@@ -1,5 +1,15 @@
+.scroll-navbar {
+     box-shadow: 1px 0 5px rgb(75, 75, 75);
+     transition: .2s;
+}
+
 nav {
-     width: 90%;
+     z-index: 1;
+     position: sticky;
+     top: 0;
+     background-color: $white;
+     width: 100%;
+     padding: 0 10vw;
      height: 10vh;
      margin: 0 auto;
      display: flex;
@@ -26,6 +36,7 @@ nav {
      ul {
           width: fit-content;
           display: flex;
+          align-items: center;
           flex-direction: row;
 
           li {
@@ -35,7 +46,12 @@ nav {
                margin: 0 2vw;
 
                a {
-                    font-weight: bold;
+                    font-weight: 700;
+                    letter-spacing: .2px;
+                    &:hover {
+                         color: $sec;
+                         transition: .2s;
+                    }
                }
                div {
                     width: 100%;
@@ -46,11 +62,21 @@ nav {
                     background-color: $sec;
                }
           }
+          .contact {
+               padding: 10px 20px;
+               border: 2px solid $sec;
+               border-radius: 8px;
+          }
+          .contact-active {
+               background-color: $sec;
+               border: none;
+               color: $white;
+          }
      }
 }
 
 
-@media (max-width: 830px){
+@media (max-width: 770px){
      nav {
           .checkbtn{
                display: block;

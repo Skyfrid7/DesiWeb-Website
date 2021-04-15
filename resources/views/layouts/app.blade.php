@@ -16,14 +16,17 @@
         <!-- Styles -->
         <link rel="stylesheet" href="{{ asset('css/main.css') }}">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+        <!-- Js -->
+        <script src="{{ asset('assets/js/main.js') }}"></script>
     </head>
 
     <body>
 
-        <nav>
+        <nav id="navbar">
 
             <div class="logo">
-                <img src="{{ asset('assets/svg/webdev-logo.svg') }}" alt="logo de l'entrepise Skyfrid Développement">
+                <a href="{{ route('welcome') }}"><img src="{{ asset('assets/svg/webdev-logo.svg') }}" alt="logo de l'entrepise Skyfrid Développement"></a>
             </div>
 
             <input type="checkbox" id="check">
@@ -44,9 +47,8 @@
                     <a href="{{ route('realisations') }}">Réalisations</a>
                     <div class="{{ (request()->routeIs('realisations')) ? 'active' : '' }}"></div>
                 </li>
-                <li>
+                <li class="contact {{ (request()->routeIs('contact.create')) ? 'contact-active' : '' }}">
                     <a href="{{ route('contact.create') }}">Contact</a>
-                    <div class="{{ (request()->routeIs('contact.create')) ? 'active' : '' }}"></div>
                 </li>
             </ul>
 

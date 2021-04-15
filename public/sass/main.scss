@@ -35,19 +35,23 @@ min-height: 100vh;
      height: 100%;
 }
 
+.blue {
+     color: $sec;
+}
+
 .btn {
 display: block;
 padding: 2vh 4vh;
-background-color: $third;
-border-radius: 4px;
+background-color: $sec;
+border-radius: 8px;
 text-align: center;
+font-size: 20px;
 text-transform: uppercase;
 color: $white;
-margin: 2vh 0;
-font-weight: 800;
+font-weight: 700;
 letter-spacing: 1px;
      &:hover {
-          background-color: darken($color: $third, $amount: 10%);
+          background-color: $d-sec;
           transition: .2s;
      }
 }
