@@ -1,0 +1,77 @@
+.realisations {
+     overflow-x: hidden;
+     
+     img {
+          width: 2500px;
+     }
+
+     .realisations-container {
+          background-color: $third;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          text-align: center;
+
+          h4 {
+               font-size: 40px;
+               font-weight: 800;
+               letter-spacing: 1.5%;
+               margin-bottom: 10vh;
+          }
+          .realisations-previews {
+               display: grid;
+               width: 90%;
+               margin: 0 auto;
+               max-width: 1500px;
+               grid-template-columns: repeat(3, 330px);
+               gap: 50px;
+               justify-content: center;
+
+               .site-preview {
+                    width: 330px;
+                    height: 330px;
+                    background-image: url("../assets/img/website-preview.jpg");
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: 100%;
+                    cursor: pointer;
+
+                    .site-details {
+                         background-color: transparent;
+                         height: 100%;
+                         color: transparent;
+                         display: flex;
+                         flex-direction: column;
+                         width: 100%;
+                         padding: 0 10%;
+                         text-align: justify;
+                         align-items: center;
+                         justify-content: center;
+
+                         .site-title {
+                              display: block;
+                              font-size: 26px;
+                              letter-spacing: 1.5%;
+                              font-weight: 700;
+                              margin-bottom: 15px;
+                         }
+                         .site-desc {
+                              font-size: 18px;
+                              font-weight: 400;
+                         }
+                         
+                    }
+                    &:hover {
+                         background-size: 110%;
+                         transition: .2s;
+                    }
+                    &:hover .site-details {
+                         background-color: rgba($color: #053753, $alpha: .8);
+                         color: $white;
+                         transition: .2s;
+                    }
+               }
+          }
+     }
+}

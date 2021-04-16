@@ -46,8 +46,22 @@
 <section class="realisations">
 
      <img src="{{ asset('assets/svg/wave.svg') }}" alt="vague de transition">
+     
      <div class="realisations-container">
-          
+
+          <h4>Mes Réalisations</h4>
+
+          <div class="realisations-previews">
+               <?php for ($i=0; $i < 5; $i++) { ?>
+                    <div class="site-preview">
+                         <div class="site-details">
+                              <span class="site-title">Batterie A Dom</span>
+                              <span class="site-desc">Site vitrine de dépannage de batteries pour voitures, scooters, camions en IDF.<br>Création complète avec espace d’administration pour la personnalisation du site  et mise en ligne.</span>
+                         </div>
+                    </div>
+               <?php } ?>
+          </div>
+
      </div>
 
 </section>
