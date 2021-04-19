@@ -1,3 +1,5 @@
+
+//NAVBAR
 .scroll-navbar {
      box-shadow: 1px 0 5px rgb(75, 75, 75);
      transition: .2s;
@@ -76,6 +78,32 @@ nav {
 }
 
 
+
+//FOOTER
+footer {
+     position: relative;
+     width: 100%;
+     height: 500px;
+
+     iframe {
+          width: 100%;
+          height: 100%;
+          &:focus {
+               outline: none;
+          }
+     }
+     .footer-infos-container {
+          position: absolute;
+          top: 0;
+          left: 20%;
+          width: 25%;
+          height: 500px;
+          background: linear-gradient(to bottom right, #0C7DBB, #43BCFF);
+     }
+}
+
+
+//navbar responsive
 @media (max-width: 770px){
      nav {
           .checkbtn{

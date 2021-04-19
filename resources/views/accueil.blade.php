@@ -62,7 +62,11 @@
                <?php } ?>
           </div>
 
+          <a href="{{ route('realisations') }}" class="btn">Voir tous les projets</a>
+
      </div>
+
+     <img src="{{ asset('assets/svg/wave.svg') }}" class="end-wave" alt="vague de transition">
 
 </section>
 

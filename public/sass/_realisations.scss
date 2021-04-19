@@ -4,6 +4,9 @@
      img {
           width: 2500px;
      }
+     .end-wave {
+          transform: rotate(180deg);
+     }
 
      .realisations-container {
           background-color: $third;
