@@ -60,10 +60,32 @@
 
         <footer>
 
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3926701.643826485!2d-6.433306280912983!3d47.186816987607365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47923b78fc4e48e1%3A0x409ce34b30d50d0!2sBelfort!5e0!3m2!1sfr!2sfr!4v1618864553063!5m2!1sfr!2sfr" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <div class="footer-pre-banner">
 
-            <div class="footer-infos-container">
-                
+                <div class="footer-infos-container">
+
+                    <div class="infos-wrapper">
+
+                        <div class="icons">
+                            <img src="{{ asset('assets/svg/map-marker-alt-solid.svg') }}" alt="Icône de">
+                            <img src="{{ asset('assets/svg/phone-solid.svg') }}" alt="Icône de">
+                            <img src="{{ asset('assets/svg/envelope-solid.svg') }}" alt="Icône de">
+                        </div>
+                        
+                        <div class="texts">
+                            <span>Région de Belfort (90)</span>
+                            <span>06 43 56 83 23</span>
+                            <span>skyfrid.webdev@gmail.com</span>
+                        </div>
+                       
+                    </div>
+
+                    <a href="{{ route('contact.create') }}" class="btn footer-btn">Me contacter</a>
+
+                </div>
+
+                <img src="https://dummyimage.com/500x500/dedede/000000.png" alt="Photo de moi">
+
             </div>
 
         </footer>
