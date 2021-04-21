@@ -74,8 +74,8 @@
                         
                         <div class="texts">
                             <span>Région de Belfort (90)</span>
-                            <span>06 43 56 83 23</span>
-                            <span>skyfrid.webdev@gmail.com</span>
+                            <a href="tel:0643568323">06 43 56 83 23</a>
+                            <a href="mailto:skyfrid.webdev@gmail.com">skyfrid.webdev@gmail.com</a>
                         </div>
                        
                     </div>
@@ -86,6 +86,40 @@
 
                 <img src="https://dummyimage.com/500x500/dedede/000000.png" alt="Photo de moi">
 
+            </div>
+
+            <div class="footer-links">
+
+                <div class="presentation">
+                    <img src="{{ asset("assets/svg/webdev-logo.svg") }}" alt="logo de l'entreprise">
+                    <span>Guillaume Sutty - Création de sites webs: conception, réalisation, optimisation, hébergement et maintenance.
+                        Je vous accompagne dans votre projet pour un rendu qui vous satisfera à coup sûr.</span>
+                </div>
+
+                <div class="other-pages">
+                    <h5>Voir aussi</h5>
+                    <ul>
+                        <li><a href="{{ route('welcome') }}">Accueil</a></li>
+                        <li><a href="{{ route('services') }}">Services</a></li>
+                        <li><a href="{{ route('realisations') }}">Réalisations</a></li>
+                    </ul>
+                </div>
+
+                <div class="contact-infos">
+                    <h5>Contact</h5>
+                    <ul>
+                        <li><a href="tel:0643568323">Tél: 06 43 56 83 23</a></li>
+                        <li><a href="mailto:skyfrid.webdev@gmail.com">Mail: skyfrid.webdev@gmail.com</a></li>
+                        <li><a href="{{ route('contact.create') }}">Me contacter</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <hr>
+
+            <div class="credits">
+                <span>©2021 Guillaume Sutty - Sky'Development - Tous droits réservés | <a href="">Mentions Légales</a>  | <a href="">CGV</a></span>
             </div>
 
         </footer>

@@ -82,6 +82,7 @@ nav {
 //FOOTER
 footer {
      width: 100%;
+     justify-content: center;
 
      .footer-pre-banner {
           width: 100%;
@@ -130,7 +131,8 @@ footer {
                          align-items: flex-start;
 
 
-                         span {
+                         span, a {
+                              color: $white;
                               font-size: 18px;
                               line-height: 30px;
                               font-weight: 600;
@@ -150,8 +152,81 @@ footer {
                }
           }
      }
-
      
+     .footer-links {
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          padding: 6vh 15vw;
+          align-items: center;
+
+          .presentation {
+               width: fit-content;
+               display: flex;
+               flex-direction: column;
+
+               img {
+                    width: 250px;
+                    height: auto;
+                    margin-bottom: 6vh;
+               }
+               span {
+                    width: 600px;
+                    font-size: 14px;
+                    font-weight: 300;
+               }
+
+          }
+          .other-pages, .contact-infos {
+               display: flex;
+               flex-direction: column;
+               height: 100%;
+
+               h5 {
+                    font-weight: 600;
+                    font-size: 22px;
+                    color: #555555;
+                    margin-bottom: 2vh;
+               }
+               ul {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    height: 100%;
+                    color: #525252;
+                    
+                    li a {
+
+                         margin-bottom: 5px;
+                         font-weight: 400;
+                         font-size: 15px;
+                         &:hover {
+                              text-decoration: underline;
+                         }
+                    }
+               }
+          }
+     }
+
+     hr {
+          width: 70vw;
+          background-color: $sec;
+          height: 2px;
+          border: 0;
+     }
+
+     .credits {
+          width: 100%;
+          padding: 0 15vw;
+          font-weight: 400;
+          font-size: 13px;
+          margin: 5px 0;
+
+          a:hover {
+               text-decoration: underline;
+          }
+     }
 }
 
 
