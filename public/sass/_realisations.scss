@@ -1,12 +1,15 @@
+#realisations-img {
+     img {
+          width: 30vw;
+     }
+}
+
+#realisations-page {
+     margin-top: -300px;
+}
+
 .realisations {
      overflow-x: hidden;
-     
-     img {
-          width: 2500px;
-     }
-     .end-wave {
-          transform: rotate(180deg);
-     }
 
      .realisations-container {
           background-color: $third;

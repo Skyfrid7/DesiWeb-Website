@@ -172,6 +172,7 @@ footer {
                     margin-bottom: 6vh;
                }
                span {
+                    cursor: text;
                     width: 600px;
                     font-size: 14px;
                     font-weight: 300;
@@ -196,13 +197,16 @@ footer {
                     height: 100%;
                     color: #525252;
                     
-                    li a {
-
+                    li {
                          margin-bottom: 5px;
-                         font-weight: 400;
-                         font-size: 15px;
-                         &:hover {
-                              text-decoration: underline;
+
+                         a {
+                              font-weight: 400;
+                              font-size: 14px;
+                              color: #525252;
+                              &:hover {
+                                   text-decoration: underline;
+                              }
                          }
                     }
                }

@@ -27,6 +27,7 @@ display: flex;
 flex-direction: column;
 justify-content: space-between;
 min-height: 100vh;
+overflow-x: hidden;
 }
 
 #main {
@@ -52,5 +53,53 @@ letter-spacing: .2px;
      &:hover {
           background-color: $d-sec;
           transition: .2s;
+     }
+}
+
+.wave {
+     width: 2500px;
+     overflow-x: hidden;
+}
+.end-wave {
+     transform: rotate(180deg);
+}
+
+//LANDING
+.landing-page {
+     height: 90vh;
+     width: 80vw;
+     margin: 0 auto;
+     justify-content: space-between;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+
+     .landing-text {
+          transform: translateY(-5vh);
+          display: flex;
+          flex-direction: column;
+     
+          h1 {
+               text-transform: uppercase;
+               font-weight: 800;
+               font-size: 40px;
+               line-height: normal;
+          }
+          .subtitle {
+               font-weight: 600;
+               font-size: 20px;
+               margin: 10px 0 30px;
+          }
+          a {
+               width: 80%;
+          }
+     }
+
+     .landing-img {
+          transform: translateY(-3vh);
+          img {
+               width: 40vw;
+               height: auto;
+          }
      }
 }

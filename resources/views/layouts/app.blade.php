@@ -119,7 +119,7 @@
             <hr>
 
             <div class="credits">
-                <span>©2021 Guillaume Sutty - Sky'Development - Tous droits réservés | <a href="">Mentions Légales</a>  | <a href="">CGV</a></span>
+                <span>©2021 Guillaume Sutty - DesiWeb - Tous droits réservés | <a href="">Mentions Légales</a>  | <a href="">CGV</a></span>
             </div>
 
         </footer>

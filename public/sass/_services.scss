@@ -1,0 +1,53 @@
+#services-img {
+     img {
+          width: 30vw;
+     }
+}
+
+#services-wave {
+     margin-top: -300px;
+}
+
+.project-timeline {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     padding: 0 5vw;
+     background-color: $third;
+
+     img {
+          width: 25vw;
+          height: auto;
+     }
+
+     .project-container {
+          display: flex;
+          flex-direction: column;
+
+          .step-container {
+               display: flex;
+               flex-direction: row;
+
+               img {
+                    height: 20vh;
+                    width: auto;
+               }
+               .step-text {
+                    display: flex;
+                    flex-direction: column;
+               }
+          }
+     }
+}
+
+.services-infos {
+     margin-top: -15vh;
+
+     span {
+          line-height: 190%;
+     }
+     .second-services-infos {
+          margin-top: 10vh;
+     }
+}
