@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,5 +21,5 @@ Route::view('services', 'services')->name('services');
 Route::view('realisations', 'realisations')->name('realisations');
 
 //Contact
-Route::get('contact', 'ContactController@create')->name('contact.create');
-Route::post('contact', 'ContactController@store')->name('contact.store');
+Route::get('contact', [ContactController::class, 'create'])->name('contact.create');
+Route::post('contact', [ContactController::class, 'store'])->name('contact.store');

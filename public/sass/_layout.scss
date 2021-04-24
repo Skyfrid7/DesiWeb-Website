@@ -49,7 +49,7 @@ nav {
 
                a {
                     font-weight: 700;
-                    letter-spacing: .2px;
+                    letter-spacing: .6px;
                     &:hover {
                          color: $sec;
                          transition: .2s;
@@ -72,7 +72,19 @@ nav {
           .contact-active {
                background-color: $sec;
                border: none;
-               color: $white;
+
+               a { 
+                    color: $white;
+               }
+          }
+          a:hover {
+               color: $black;
+
+               .contact-active {
+                    border: 2px solid $sec;
+                    background-color: $white;
+                    color: $black;
+               }
           }
      }
 }
@@ -235,7 +247,7 @@ footer {
 
 
 //navbar responsive
-@media (max-width: 770px){
+@media (max-width: 950px){
      nav {
           .checkbtn{
                display: block;

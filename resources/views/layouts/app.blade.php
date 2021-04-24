@@ -67,9 +67,9 @@
                     <div class="infos-wrapper">
 
                         <div class="icons">
-                            <img src="{{ asset('assets/svg/map-marker-alt-solid.svg') }}" alt="Icône de">
-                            <img src="{{ asset('assets/svg/phone-solid.svg') }}" alt="Icône de">
-                            <img src="{{ asset('assets/svg/envelope-solid.svg') }}" alt="Icône de">
+                            <img src="{{ asset('assets/svg/map-marker-alt-solid.svg') }}" alt="Icône de Position">
+                            <img src="{{ asset('assets/svg/phone-solid.svg') }}" alt="Icône de Téléphone">
+                            <img src="{{ asset('assets/svg/envelope-solid.svg') }}" alt="Icône de Mail">
                         </div>
                         
                         <div class="texts">
