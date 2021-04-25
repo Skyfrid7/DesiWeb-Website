@@ -25,18 +25,31 @@
 
      <div class="project-container">
 
-          <div class="step-container">
+          <div class="number">
 
-               <div class="step-header">
-                    <img src="" alt="">
-                    <h3>Conception de votre projet</h3>
-               </div>
+               <?php for ($i=1; $i < 5; $i++) { ?>
+                    <img class="digits" src="{{ asset('assets/svg/project-timeline/step-' . $i . '.svg') }}" alt="">
+                    <img class="points" src="{{ asset('assets/svg/project-timeline/points.svg') }}" alt="">
+               <?php } ?>
 
-               <div class="step-text">
-                    <img src="" alt="">
-                    <p>Nous échangeons ensemble sur vos besoins ainsi que les stratégies à mettre en oeuvre pour les traduire en proposition de solutions techniques.</p>
-               </div>
-               
+          </div>
+
+          <div class="texts">
+
+               <h3>Conception de votre projet</h3>
+               <p>Nous échangeons ensemble sur vos besoins ainsi que les stratégies à mettre en oeuvre pour les traduire en proposition de solutions techniques.</p>
+
+               <h3>Développemement du projet</h3>
+               <p>Je procède au développement technique du projet en fonction des technologies choisies.
+                    Vous êtes informés en temps réel de l’avancée du projet.</p>
+
+               <h3>Livraison et mise en ligne du projet</h3>
+               <p>Votre projet est enfin terminé et prêt à l'emploi !
+                    Je vous guide pour l’achat de l’hébergement et du nom de domaine et je m’occupe de la mise en ligne.</p>
+
+               <h3>Support et maintenante du site</h3>
+               <p>Si vous adhérez au forfait maintenance, j’assure le maintien en ligne et les mises à jour nécessaires pour le fonctionnement continu et la sécurité de votre nouveau site internet.
+               </p>
 
           </div>
 

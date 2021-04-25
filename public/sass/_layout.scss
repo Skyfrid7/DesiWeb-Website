@@ -45,13 +45,17 @@ nav {
                width: fit-content;
                display: flex;
                flex-direction: column;
-               margin: 0 2vw;
+               margin: 0 1.7vw;
+               padding: 1vh;
 
                a {
                     font-weight: 700;
                     letter-spacing: .6px;
-                    &:hover {
-                         color: $sec;
+               }
+               &:hover {
+                    cursor: pointer;
+                    a {
+                          color: $sec;
                          transition: .2s;
                     }
                }
@@ -68,6 +72,12 @@ nav {
                padding: 10px 20px;
                border: 2px solid $sec;
                border-radius: 8px;
+               &:hover {
+                    a {
+                         color: $sec;
+                         transition: .2s;
+                    }
+               }
           }
           .contact-active {
                background-color: $sec;
@@ -76,14 +86,14 @@ nav {
                a { 
                     color: $white;
                }
-          }
-          a:hover {
-               color: $black;
-
-               .contact-active {
+               &:hover {
                     border: 2px solid $sec;
                     background-color: $white;
-                    color: $black;
+                    transition: .2s;
+
+                    a {
+                         color: $black;
+                    }
                }
           }
      }
@@ -162,6 +172,11 @@ footer {
                          transition: .2s;
                     }
                }
+          }
+          .portrait {
+               width: 500px;
+               height: 500px;
+               object-fit: cover;
           }
      }
      

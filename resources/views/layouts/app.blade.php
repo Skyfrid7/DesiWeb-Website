@@ -84,7 +84,7 @@
 
                 </div>
 
-                <img src="https://dummyimage.com/500x500/dedede/000000.png" alt="Photo de moi">
+                <img class="portrait" src="{{ asset("assets/img/photo-portrait.jpg") }}" alt="Photo de moi">
 
             </div>
 
