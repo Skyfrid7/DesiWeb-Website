@@ -67,7 +67,7 @@ letter-spacing: .2px;
 //LANDING
 .landing-page {
      height: 90vh;
-     width: 80vw;
+     width: 80%;
      margin: 0 auto;
      justify-content: space-between;
      display: flex;
@@ -91,7 +91,8 @@ letter-spacing: .2px;
                margin: 10px 0 30px;
           }
           a {
-               width: 80%;
+               width: fit-content;
+               padding: 2vh 5vw;
           }
      }
 
@@ -100,6 +101,43 @@ letter-spacing: .2px;
           img {
                width: 40vw;
                height: auto;
+          }
+     }
+}
+
+@media screen and (max-width: 1250px) {
+     .landing-img {
+          display: none;
+     }
+     .landing-page {
+          justify-content: center;
+     }
+}
+@media screen and (max-width: 500px) {
+     .landing-page {
+          width: 90%;
+
+          .landing-text {
+               h1 {
+                    font-size: 30px;
+               }
+               a {
+                    font-size: 16px;
+               }
+          }
+     }
+}
+@media screen and (max-width: 360px) {
+     .landing-page .landing-text {
+          h1 {
+               font-size: 25px;
+          }
+          .subtitle {
+               font-size: 18px;
+          }
+          a {
+               font-size: 14px;
+               padding: 4vw 5vw;
           }
      }
 }

@@ -26,7 +26,7 @@
         <nav id="navbar">
 
             <div class="logo">
-                <a href="{{ route('welcome') }}"><img src="{{ asset('assets/svg/webdev-logo.svg') }}" alt="logo de l'entrepise Skyfrid Développement"></a>
+                <a href="{{ route('welcome') }}"><img src="{{ asset('assets/img/DesiWeb-png-2.png') }}" alt="logo de l'entrepise DesiWeb"></a>
             </div>
 
             <input type="checkbox" id="check">
@@ -58,60 +58,64 @@
             @yield('content')
         </div>
 
-        <footer>
+        <div class="footer-pre-banner">
 
-            <div class="footer-pre-banner">
+            <div class="footer-infos-container">
 
-                <div class="footer-infos-container">
+                <div class="infos-wrapper">
 
-                    <div class="infos-wrapper">
-
-                        <div class="icons">
-                            <img src="{{ asset('assets/svg/map-marker-alt-solid.svg') }}" alt="Icône de Position">
-                            <img src="{{ asset('assets/svg/phone-solid.svg') }}" alt="Icône de Téléphone">
-                            <img src="{{ asset('assets/svg/envelope-solid.svg') }}" alt="Icône de Mail">
-                        </div>
-                        
-                        <div class="texts">
-                            <span>Région de Belfort (90)</span>
-                            <a href="tel:0643568323">06 43 56 83 23</a>
-                            <a href="mailto:skyfrid.webdev@gmail.com">skyfrid.webdev@gmail.com</a>
-                        </div>
-                       
+                    <div class="icons">
+                        <img src="{{ asset('assets/svg/map-marker-alt-solid.svg') }}" alt="Icône de Position">
+                        <img src="{{ asset('assets/svg/phone-solid.svg') }}" alt="Icône de Téléphone">
+                        <img src="{{ asset('assets/svg/envelope-solid.svg') }}" alt="Icône de Mail">
                     </div>
-
-                    <a href="{{ route('contact.create') }}" class="btn footer-btn">Me contacter</a>
-
+                    
+                    <div class="texts">
+                        <span>Région de Belfort (90)</span>
+                        <a href="tel:0643568323">06 43 56 83 23</a>
+                        <a href="mailto:skyfrid.webdev@gmail.com">skyfrid.webdev@gmail.com</a>
+                    </div>
+                    
                 </div>
 
-                <img class="portrait" src="{{ asset("assets/img/photo-portrait.jpg") }}" alt="Photo de moi">
+                <a href="{{ route('contact.create') }}" class="btn footer-btn">Me contacter</a>
 
             </div>
+
+            <img class="portrait" src="{{ asset("assets/img/photo-portrait.jpg") }}" alt="Photo de moi">
+
+        </div>
+
+        <footer>
 
             <div class="footer-links">
 
                 <div class="presentation">
-                    <img src="{{ asset("assets/svg/webdev-logo.svg") }}" alt="logo de l'entreprise">
+                    <img src="{{ asset("assets/img/DesiWeb-png-2.png") }}" alt="logo de l'entreprise">
                     <span>Guillaume Sutty - Création de sites webs: conception, réalisation, optimisation, hébergement et maintenance.
                         Je vous accompagne dans votre projet pour un rendu qui vous satisfera à coup sûr.</span>
                 </div>
 
-                <div class="other-pages">
-                    <h5>Voir aussi</h5>
-                    <ul>
-                        <li><a href="{{ route('welcome') }}">Accueil</a></li>
-                        <li><a href="{{ route('services') }}">Services</a></li>
-                        <li><a href="{{ route('realisations') }}">Réalisations</a></li>
-                    </ul>
-                </div>
+                <div class="infos-pages-container">
 
-                <div class="contact-infos">
-                    <h5>Contact</h5>
-                    <ul>
-                        <li><a href="tel:0643568323">Tél: 06 43 56 83 23</a></li>
-                        <li><a href="mailto:skyfrid.webdev@gmail.com">Mail: skyfrid.webdev@gmail.com</a></li>
-                        <li><a href="{{ route('contact.create') }}">Me contacter</a></li>
-                    </ul>
+                    <div class="other-pages">
+                        <h5>Voir aussi</h5>
+                        <ul>
+                            <li><a href="{{ route('welcome') }}">Accueil</a></li>
+                            <li><a href="{{ route('services') }}">Services</a></li>
+                            <li><a href="{{ route('realisations') }}">Réalisations</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="contact-infos">
+                        <h5>Contact</h5>
+                        <ul>
+                            <li><a href="tel:0643568323">Tél: 06 43 56 83 23</a></li>
+                            <li><a href="mailto:skyfrid.webdev@gmail.com">Mail: skyfrid.webdev@gmail.com</a></li>
+                            <li><a href="{{ route('contact.create') }}">Me contacter</a></li>
+                        </ul>
+                    </div>
+
                 </div>
 
             </div>
