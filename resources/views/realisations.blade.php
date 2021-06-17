@@ -29,7 +29,7 @@
                          <div class="site-details">
                               <span class="site-title">Batterie A Dom</span>
                               <span class="site-desc">Site vitrine de dépannage de batteries pour voitures, scooters, camions en IDF.<br>Création complète avec espace d’administration pour la personnalisation du site  et mise en ligne.</span>
-                              <i class="fas fa-external-link-alt"></i>
+                              <a href="#"><i class="fas fa-external-link-alt"></i></a>
                          </div>
                     </div>
                <?php } ?>

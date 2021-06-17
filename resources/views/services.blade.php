@@ -6,7 +6,7 @@
 
      <div class="landing-text">
           <h1>Mes <span class="blue">services</span>: vous<br>proposer le <span class="blue">meilleur</span></h1>
-          <h2 class="subtitle">Découvrez ma façon de travailler, mêlant rigueur et inovation</h2>
+          <h2 class="subtitle">Découvrez ma façon de travailler, mêlant rigueur et innovation</h2>
      </div>
 
      <div class="landing-img" id="services-img">
@@ -36,20 +36,17 @@
 
           <div class="texts">
 
-               <h3>Conception de votre projet</h3>
-               <p>Nous échangeons ensemble sur vos besoins ainsi que les stratégies à mettre en oeuvre pour les traduire en proposition de solutions techniques.</p>
+               <h3>Conception et maquettage</h3>
+               <p>Nous échangeons ensemble sur vos besoins pour que je puisse déterminer les fonctionnalités à mettre en place. Ensuite, je conçois une maquette visuelle du site qui sera traduite en code une fois vos retours et améliorations faites.</p>
 
-               <h3>Développemement du projet</h3>
-               <p>Je procède au développement technique du projet en fonction des technologies choisies.
-                    Vous êtes informés en temps réel de l’avancée du projet.</p>
+               <h3>Développement du site</h3>
+               <p>Je procède au développement du site selon les technologies choisies, en respectant les standards en vigueur. Vous êtes régulièrement tenu informé de l’avancée du travail selon le moyen que vous préférez.</p>
 
                <h3>Livraison et mise en ligne du projet</h3>
-               <p>Votre projet est enfin terminé et prêt à l'emploi !
-                    Je vous guide pour l’achat de l’hébergement et du nom de domaine et je m’occupe de la mise en ligne.</p>
+               <p>Votre projet est enfin terminé et prêt à l'emploi! Je vous guide pour l’achat de l’hébergement, du nom de domaine et je m’occupe de la mise en ligne.</p>
 
-               <h3>Support et maintenante du site</h3>
-               <p>Si vous adhérez au forfait maintenance, j’assure le maintien en ligne et les mises à jour nécessaires pour le fonctionnement continu et la sécurité de votre nouveau site internet.
-               </p>
+               <h3>Support et maintenance</h3>
+               <p>Je réalise les mises à jour nécessaires pour le fonctionnement continu et la sécurité de votre nouveau site internet, ainsi que des modifications mineures que vous pourriez suggérer.</p>
 
           </div>
 
@@ -74,8 +71,8 @@
                </span>
           </div>
           <div class="text-content">
-               <h4>Développement logiciel</h4>
-               <span>Nous parlons en PHP et TWIG avec nos serveurs car le framework Symfony est notre spécialité ! Côté client, nous faisons interagir les éléments en nous appuyant sur VueJs, react, angular, D3.js, tweenmax, Ecmascript et le bon vieux javascript !
+               <h4>Développement web</h4>
+               <span>Je code en PHP avec le framework Laravel pour la communication avec le serveur. C’est une technologie qui a fait ses preuves, stable et populaire. A cela, j’ajoute du HTML, SASS, TailwindCSS et Javascript pour la partie visuelle ainsi que du SQL pour gérer la base de donnée.
                </span>
           </div>
      </div>
@@ -83,18 +80,18 @@
      <img src="{{ asset('assets/svg/services-second-line.svg') }}" alt="ligne avec des icones illustrant les textes" class="second-services-infos">
      <div class="text-infos-container">
           <div class="text-content">
-               <h4>Intégration web</h4>
-               <span>Offrir à vos usagers une expérience utilisateur optimum nécessite une interface réalisée dans les règles de l’art avec les bonnes technos ! SASS, Flexbox, Lazyloading, Webfont, HTML, CSS, SVG… sont nos technos pour vous offrir des sites responsive design et RGAA.
+               <h4>Technologies du moment</h4>
+               <span>L’expérience utilisateur étant ma priorité, votre site sera au top de sa performance grâce à mes outils qui en améliore la qualité. Responsive, Flexbox, Grid, WebP, Lazyloading, Web Sockets font partie de mon quotidien.
                </span>
           </div>
           <div class="text-content">
                <h4>Hébergement sécurisé</h4>
-               <span>Qu’elles soient personnelles ou stratégiques, vos données sont cruciales ! L’indisponibilité de vos services en ligne est un manque à gagner considérable… Nous vous offrons des solutions professionnelles de qualité où tout est sécurisé, sauvegardé et surveillé H24.
+               <span>Votre présence en ligne est primordiale et ne doit pas être entachée par un hébergement défaillant qui menaçerait vos données. Je vous propose des solutions professionnelles, sécurisées, avec des sauvegardes automatiques, tout ça au meilleur prix.
                </span>
           </div>
           <div class="text-content">
                <h4>Maintenance du site</h4>
-               <span>Le forfait maintenance vous permet d’acquérir une totale tranquilité, grâce à un contrôle mensuel de la sécurité et du fonctionnement du site, ainsi que la possibilité d’effectuer des modifications mineures du design ou autre.</span>
+               <span>Le forfait maintenance vous permet d’acquérir une totale tranquillité, grâce à un contrôle mensuel de la sécurité et du fonctionnement du site, ainsi que la possibilité d’effectuer des modifications mineures du design ou autre.</span>
           </div>
      </div>
 

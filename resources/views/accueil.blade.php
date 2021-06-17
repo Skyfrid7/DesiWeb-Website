@@ -6,7 +6,7 @@
 
      <div class="landing-text">
           <h1>Freelance en<br><span class="blue">développement web</span><br>& <span class="blue">web design</span></h1>
-          <h2 class="subtitle">Création de sites internet</h2>
+          <h2 class="subtitle">Construis ton site, bâtis ton avenir</h2>
           <a href="{{ route('services') }}" class="btn">Découvrir nos services</a>
      </div>
 
@@ -29,15 +29,15 @@
      <div class="text-infos-container">
           <div class="text-content">
                <h4>Qui suis-je ?</h4>
-               <span>Guillaume Sutty,  freelance en développement web depuis 3 ans à belfort.<br><br>Je réalise vos projets de sites vitrine, e-commerce, blog, ...</span>
+               <span>Guillaume Sutty, freelance en développement web depuis 3 ans à Belfort.<br>Passionné d’informatique, je me suis formé pendant plus d’un an aux langages du web. J’ai ensuite développé mes compétences au cours des différentes missions qui m’ont été données de réaliser.</span>
           </div>
           <div class="text-content">
                <h4>Ce que je réalise ?</h4>
-               <span>Création de sites web de tout type: sites vitrine, e-commerce, blog, site personnel, ...<br><br>Mes créations sont réalisées sur-mesure, et correspondent à 100% avec votre projet grâce à une phase d’échange sur vos envies.</span>
+               <span>Création de sites web de tout type: sites vitrine, e-commerce, blog, site personnel, ...<br><br>Mes créations sont réalisées sur-mesure, et correspondent fidèlement à votre projet grâce à une phase d’échange sur vos envies et vos besoins.</span>
           </div>
           <div class="text-content">
                <h4>Pourquoi moi ?</h4>
-               <span>Passioné d’informatique, je vous garantie un site sur-mesure parfaitement sécurisé, adapté à tout les navigateurs et supports (téléphone, tablette, pc).<br><br>N’hésitez plus à me contacter pour échanger sur votre projet.</span>
+               <span>Je vous garantie un site personnalisé, parfaitement sécurisé, adapté à tout les navigateurs et supports (téléphone, tablette, pc).<br>De plus, vous saurez être satisfait du design grâce à la conception d’une maquette visuelle avant développement.<br>N’hésitez plus à me contacter pour échanger sur votre projet.</span>
           </div>
      </div>
 
@@ -57,7 +57,7 @@
                          <div class="site-details">
                               <span class="site-title">Batterie A Dom</span>
                               <span class="site-desc">Site vitrine de dépannage de batteries pour voitures, scooters, camions en IDF.<br>Création complète avec espace d’administration pour la personnalisation du site  et mise en ligne.</span>
-                              <i class="fas fa-external-link-alt"></i>
+                              <a href="#"><i class="fas fa-external-link-alt"></i></a>
                          </div>
                     </div>
                <?php } ?>
