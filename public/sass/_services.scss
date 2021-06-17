@@ -13,11 +13,12 @@
      flex-direction: row;
      justify-content: space-evenly;
      align-items: center;
-     padding: 0 5vw;
+     padding: 0;
      background-color: $third;
 
-     img {
-          width: 25vw;
+     .dev-worker {
+          max-width: 500px;
+          width: 35vw;
           height: auto;
      }
 
@@ -73,5 +74,50 @@
      }
      .second-services-infos {
           margin-top: 10vh;
+     }
+}
+
+@media  screen and (max-width: 1000px) {
+     .project-timeline {
+
+          .dev-worker {
+               display: none;
+          }
+          .project-container {
+               justify-content: center;
+               .texts {
+                    width: 70%;
+
+                    p {
+                         width: 100%;
+                    }
+               }
+          }
+     }
+}
+@media  screen and (max-width: 550px) {
+     .project-timeline .project-container {
+          .number {
+               display: none;
+          }
+          .texts {
+               width: 80%;
+               p {
+                    height: fit-content;
+                    margin: 0 0 3vh;
+               }
+          }
+     }
+}
+@media  screen and (max-width: 470px) {
+     .project-timeline .project-container .texts {
+          h3 {
+               font-size: 17px;
+               line-height: 22px;
+          }
+          p {
+               font-size: 14px;
+               margin: 2vh 0 4vh;
+          }
      }
 }

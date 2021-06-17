@@ -21,7 +21,7 @@
 
      
 
-     <img src="{{ asset('assets/img/project-timeline.png') }}" alt="Monsieur en train de développer">
+     <img class="dev-worker" src="{{ asset('assets/img/project-timeline.png') }}" alt="Monsieur en train de développer">
 
      <div class="project-container">
 
