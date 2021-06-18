@@ -72,8 +72,8 @@
                     
                     <div class="texts">
                         <span>Région de Belfort (90)</span>
-                        <a href="tel:0643568323">06 43 56 83 23</a>
-                        <a href="mailto:skyfrid.webdev@gmail.com">skyfrid.webdev@gmail.com</a>
+                        <a href="tel:0781074110">07 81 07 41 10</a>
+                        <a href="mailto:contact@desiweb.fr">contact@desiweb.fr</a>
                     </div>
                     
                 </div>
@@ -110,8 +110,8 @@
                     <div class="contact-infos">
                         <h5>Contact</h5>
                         <ul>
-                            <li><a href="tel:0643568323">Tél: 06 43 56 83 23</a></li>
-                            <li><a href="mailto:skyfrid.webdev@gmail.com">Mail: skyfrid.webdev@gmail.com</a></li>
+                            <li><a href="tel:0781074110">Tél: 07 81 07 41 10</a></li>
+                            <li><a href="mailto:contact@desiweb.fr">Mail: contact@desiweb.fr</a></li>
                             <li><a href="{{ route('contact.create') }}">Me contacter</a></li>
                         </ul>
                     </div>

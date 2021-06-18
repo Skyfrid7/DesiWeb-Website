@@ -106,9 +106,9 @@
     
             <div class="texts">
                 <span class="belfort">Région de Belfort (90)<br><span class="reminder"><img src="{{ asset("assets/svg/circle-solid.svg") }}" alt="Icône rond vert de disponibilité">Disponible à distance dans toute la France</span></span>
-                <a href="tel:0643568323">06 43 56 83 23</a>
-                <a href="mailto:skyfrid.webdev@gmail.com">skyfrid.webdev@gmail.com</a>
-                <a href="https://twitter.com/Skyfrid4">@Skyfrid4</a>
+                <a href="tel:0781074110">07 81 07 41 10</a>
+                <a href="mailto:contact@desiweb.fr">contact@desiweb.fr</a>
+                <a href="https://twitter.com/Skyfrid4">@DesiWeb7</a>
             </div>
 
         </div>

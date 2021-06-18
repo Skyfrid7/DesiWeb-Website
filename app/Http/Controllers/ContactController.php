@@ -24,7 +24,7 @@ class ContactController extends Controller
             'message' => 'required'
         ]);
 
-        Mail::to('mail@reception.com')->send(new ContactMail($data));
+        Mail::to('contact@desiweb.fr')->send(new ContactMail($data));
 
         return redirect('contact')->with('message', 'Votre message a bien été envoyé.');
     }

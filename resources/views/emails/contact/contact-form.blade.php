@@ -1,15 +1,13 @@
 @component('mail::message')
 # Bonjour
 
-Vous avez reçu un mail de la part de {{ $data['name']  }} ({{ $data['email'] }})
+Vous avez reçu un mail de la part de {{ $data['first-name'] . $data['name'] }}
+<b>Email:</b> {{ $data['email'] }}
+<b>Téléphone:</b> {{ $data['tel'] }}
 
-Message
-{{ $data['message'] }}
+<b>Sujet:</b> {{ $data['subject'] }}
+<b>Message:</b> {{ $data['message'] }}
 
-@component('mail::button', ['url' => ''])
-Button Text
-@endcomponent
-
-Thanks,<br>
-{{ config('app.name') }}
+Merci,<br>
+DesiWeb
 @endcomponent
