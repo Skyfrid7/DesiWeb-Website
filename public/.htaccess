@@ -18,4 +18,10 @@
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
+
+    RewriteCond %{HTTPS} off
+    RewriteCond %{HTTP:X-Forwarded-SSL} !on
+    RewriteCond %{HTTP_HOST} ^desiweb-app.herokuapp.com$ [OR]
+    RewriteCond %{HTTP_HOST} ^www.desiweb-app.herokuapp.com$
+    RewriteRule ^/?$ "https://desiweb-app.herokuapp.com" [R=301,L]
 </IfModule>
