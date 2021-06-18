@@ -62,12 +62,12 @@
      <div class="text-infos-container">
           <div class="text-content">
                <h4>Conception fonctionnelle</h4>
-               <span>Comment passer d’une intention à un projet répondant à vos besoins réels ?<br>Grâce à des techniques telles que l’écoute active, nous définissons ensemble votre produit dans les moindres détails en vous soulignant les limites de votre idée initiale.
+               <span>Je vous aide à développer vos idées en en soumettant les limites et en abordant des aspects souvent oubliés dans l'imagination d'un site.<br>Je met à contribution mon expérience dans la rédaction de votre cahier des charges si vous le désirez.
                </span>
           </div>
           <div class="text-content">
                <h4>Gestion de projet</h4>
-               <span>Mener à bien un projet digital nécessite rigueur et précision. Nos processus de production avec en particulier l’édition d’un cahier de recette dès la phase de conception vous garantissent d’obtenir un produit de qualité livré dans les temps.
+               <span>Nous échangeons aussi souvent que vous le souhaitez sur l'avancée du site.<br>De plus, un lien vous est fourni pour suivre en temps réel la conception de la maquette du site, tout cela pour obtenir un produit de qualité et à votre image.
                </span>
           </div>
           <div class="text-content">
