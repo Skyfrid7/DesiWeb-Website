@@ -5,6 +5,10 @@
 
     RewriteEngine On
 
+    RewriteCond %{SERVER_NAME} =desiweb-app.herokuapp.com [OR]
+    RewriteCond %{SERVER_NAME} =www.desiweb-app.herokuapp.com
+    RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI} [END,NE,R=permanent]
+
     # Handle Authorization Header
     RewriteCond %{HTTP:Authorization} .
     RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
@@ -18,10 +22,5 @@
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
-
-    RewriteCond %{HTTPS} off
-    RewriteCond %{HTTP:X-Forwarded-SSL} !on
-    RewriteCond %{HTTP_HOST} ^desiweb-app.herokuapp.com$ [OR]
-    RewriteCond %{HTTP_HOST} ^www.desiweb-app.herokuapp.com$
-    RewriteRule ^/?$ "https://desiweb-app.herokuapp.com" [R=301,L]
+    
 </IfModule>
