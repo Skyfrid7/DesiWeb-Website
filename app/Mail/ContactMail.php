@@ -30,6 +30,7 @@ class ContactMail extends Mailable
      */
     public function build()
     {
-        return $this->markdown('emails.contact.contact-form');
+        return $this->from('skyfrid.webdev@gmail.com')
+                    ->markdown('emails.contact.contact-form');
     }
 }
