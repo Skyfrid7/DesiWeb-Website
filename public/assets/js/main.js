@@ -3,7 +3,7 @@ window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
      navbar = document.getElementById("navbar");
-  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
      navbar.classList.add("scroll-navbar");
   } else {
      navbar.classList.remove("scroll-navbar");
