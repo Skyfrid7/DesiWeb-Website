@@ -1,3 +1,24 @@
+.alert-success {
+    width: 80%;
+    color: #155724;
+    background-color: #d4edda;
+    position: relative;
+    padding: .75rem 1.25rem;
+    border: 1px solid #c3e6cb;
+    border-radius: .25rem;
+    margin: 3vh auto -2vh;
+}
+.is-invalid {
+    border-bottom-color: #dc3545 !important;
+}
+.invalid-feedback {
+    width: 100%;
+    margin-top: .25rem;
+    font-size: .875em;
+    color: #dc3545;
+}
+
+
 .contact-container {
     min-height: 90vh;
     width: 100%;
@@ -165,8 +186,6 @@
                     }
                 }
            }
-        }
-        .map-location {
         }
     }
 }
