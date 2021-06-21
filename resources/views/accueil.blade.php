@@ -1,5 +1,8 @@
 @extends('layouts.app')
 
+@section('title', "Développement Web: Création de sites internet sur mesure")
+@section('description', "Guillaume Sutty, développeur web freelance depuis 3 ans basé à Belfort. Je réalise des sites de tous types: vitrine, e-commerce, blog, site personnel.")
+
 @section('content')
 
 <section class="landing-page">
@@ -33,11 +36,11 @@
           </div>
           <div class="text-content">
                <h4>Ce que je réalise ?</h4>
-               <span>Création de sites web de tout type: sites vitrine, e-commerce, blog, site personnel, ...<br><br>Mes créations sont réalisées sur-mesure, et correspondent fidèlement à votre projet grâce à une phase d’échange sur vos envies et vos besoins.</span>
+               <span>Création de sites web de tous types: sites vitrine, e-commerce, blog, site personnel, ...<br><br>Mes créations sont réalisées sur-mesure, et correspondent fidèlement à votre projet grâce à une phase d’échange sur vos envies et vos besoins.</span>
           </div>
           <div class="text-content">
                <h4>Pourquoi moi ?</h4>
-               <span>Je vous garantie un site personnalisé, parfaitement sécurisé, adapté à tout les navigateurs et supports (téléphone, tablette, pc).<br>De plus, vous saurez être satisfait du design grâce à la conception d’une maquette visuelle avant développement.<br>N’hésitez plus à me contacter pour échanger sur votre projet.</span>
+               <span>Je vous garantie un site personnalisé, parfaitement sécurisé, adapté à tous les navigateurs et supports (téléphone, tablette, pc).<br>De plus, vous saurez être satisfait du design grâce à la conception d’une maquette visuelle avant développement.<br>N’hésitez plus à me contacter pour échanger sur votre projet.</span>
           </div>
      </div>
 

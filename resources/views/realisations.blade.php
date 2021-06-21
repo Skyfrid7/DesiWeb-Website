@@ -1,5 +1,8 @@
 @extends('layouts.app')
 
+@section('title', "Nos réalisations: car l'expérience est gage de qualité")
+@section('description', "Mon expérience est une garantie de réussite. Votre site correspondra fidèlement à votre projet grâce à une phase d’échange sur vos envies et vos besoins.")
+
 @section('content')
 
 <section class="landing-page">

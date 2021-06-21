@@ -1,5 +1,13 @@
 @extends('layouts.app')
 
+@section('title', "Conditions Générales de Vente")
+@section('description', "")
+
+@section('noindex') 
+     <meta name="robots" content="noindex">
+     <meta name="googlebot" content="noindex">
+@endsection
+
 @section('content')
 
 <div class="policy-container CGV-container">

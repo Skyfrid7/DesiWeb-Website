@@ -1,5 +1,8 @@
 @extends('layouts.app')
 
+@section('title', "Un projet ? Une idée ? Une question ? Contactez-Nous !")
+@section('description', "Contactez-moi pour que l'on discute de votre projet ! Devis gratuits sous 48h.  Je suis disponible à distance dans toute la France, avec RDV de suivi réguliers.")
+
 @section('content')
 
 @if (session()->has('message'))

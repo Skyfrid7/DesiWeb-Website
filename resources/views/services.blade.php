@@ -1,5 +1,8 @@
 @extends('layouts.app')
 
+@section('title', "Nos services: découvrez notre façon de travailler")
+@section('description', "La création de votre site se déroule en plusieurs étapes: conception, développement, mise en ligne et maintenance avec des technologies modernes et innovantes.")
+
 @section('content')
 
 <section class="landing-page">
