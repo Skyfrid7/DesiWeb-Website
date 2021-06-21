@@ -1,0 +1,39 @@
+.policy-container {
+     width: 80%;
+     margin: 0 auto;
+     padding: 10vh 0;
+
+     h1 {
+          display: block;
+          margin: 0 auto;
+          width: fit-content;
+     }
+     h2 {
+          margin: 4vh 0 2vh;
+     }
+     h3 {
+          margin: 2vh 0 1vh;
+     }
+     p a {
+          text-decoration: underline;
+     }
+}
+.CGV-container {
+     h1 {
+          margin-bottom: 4vh;
+     }
+     p {
+     white-space: pre-wrap;
+     }
+}
+
+@media  screen and (max-width: 600px) {
+     .policy-container {
+          width: 90%;
+
+          h1 {
+               margin: 0;
+               font-size: 1.6em;
+          }
+     }
+}
