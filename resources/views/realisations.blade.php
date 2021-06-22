@@ -26,16 +26,26 @@
 
           <h4>Mes Réalisations</h4>
 
-          <div class="realisations-previews">
-               <?php for ($i=0; $i < 10; $i++) { ?>
-                    <div class="site-preview">
-                         <div class="site-details">
-                              <span class="site-title">Batterie A Dom</span>
-                              <span class="site-desc">Site vitrine de dépannage de batteries pour voitures, scooters, camions en IDF.<br>Création complète avec espace d’administration pour la personnalisation du site  et mise en ligne.</span>
-                              <a href="#"><i class="fas fa-external-link-alt"></i></a>
-                         </div>
-                    </div>
-               <?php } ?>
+          <div class="site-preview" style="background-image: url({{ asset('assets/img/batterie-a-dom.png') }})"">
+               <div class="site-details">
+                    <span class="site-title">Batterie@Dom</span>
+                    <span class="site-desc">Site vitrine de dépannage de batteries pour véhicules.<br>Création complète avec espace d’administration pour la personnalisation du site  et mise en ligne.</span>
+                    <a href="https://batterie-a-dom.fr/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+               </div>
+          </div>
+          <div class="site-preview" style="background-image: url({{ asset('assets/img/9i6esport.png') }})">
+               <div class="site-details">
+                    <span class="site-title">9i6esport</span>
+                    <span class="site-desc">Site vitrine d'une équipe esport avec ajout dynamique des sponsors, jeux, joueurs par une interface administration.</span>
+                    <a href="https://9i6esport.fr/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+               </div>
+          </div>
+          <div class="site-preview" style="background-image: url({{ asset('assets/img/desiweb.png') }})">
+               <div class="site-details">
+                    <span class="site-title">DesiWeb</span>
+                    <span class="site-desc">Site de présentation de l'activité de développement web avec portfolio de DesiWeb.</span>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+               </div>
           </div>
 
      </div>
