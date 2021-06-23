@@ -16,6 +16,8 @@
           <img src="{{ asset('assets/img/services-img.png') }}" alt="image d'une application en construction">
      </div>
 
+     <video src="{{ asset('assets/vid/whitebars.mp4') }}" muted preload="none" loop autoplay></video>
+
 </section>
 
 <img src="{{ asset('assets/svg/wave.svg') }}" alt="vague de transition" class="wave" id="services-wave">

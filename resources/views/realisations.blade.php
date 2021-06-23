@@ -16,6 +16,8 @@
           <img src="{{ asset('assets/img/realisations-img.png') }}" alt="image de différents outils et objets en rapport avec le développement">
      </div>
 
+     <video src="{{ asset('assets/vid/whitebars.mp4') }}" muted preload="none" loop autoplay></video>
+
 </section>
 
 <section class="realisations" id="realisations-page">

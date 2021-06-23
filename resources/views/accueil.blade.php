@@ -17,6 +17,8 @@
           <img src="{{ asset('assets/img/home-img.png') }}" alt="image d'un développeur en train de coder">
      </div>
 
+     <video src="{{ asset('assets/vid/whitebars.mp4') }}" muted preload="none" loop autoplay></video>
+
 </section>
 
 <section class="dev-banner">
