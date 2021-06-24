@@ -5,9 +5,8 @@
 
     RewriteEngine On
 
-    #redirect https://www to https
-    RewriteCond %{HTTPS} ^www.desiweb.fr$
-    RewriteRule (.*) https://desiweb.fr/$1 [R=301,L]
+    RewriteCond %{HTTPS} ^www\. [NC]
+    RewriteRule ^.*$ https://{REQUEST_URI} [L,NE,R=301]
 
     # Handle Authorization Header
     RewriteCond %{HTTP:Authorization} .
