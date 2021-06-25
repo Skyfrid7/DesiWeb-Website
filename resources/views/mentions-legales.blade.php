@@ -31,6 +31,9 @@
      <h2>1. Présentation du site internet.</h2>
      <p>En vertu de l'article 6 de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique, il est précisé aux utilisateurs du site internet <a href="https://desiweb.fr/">https://desiweb.fr/</a> l'identité des différents intervenants dans le cadre de sa réalisation et de son suivi:
      </p><p><strong>Propriétaire</strong> :  Autoentreprise DesiWeb   – 28 impasse des 3 chênes 90340 Chèvremont<br>
+     contact@desiweb.fr<br>
+     0781074110<br>
+     SIREN: 898 825 088<br>
                                    
      <strong>Responsable publication</strong> : DesiWeb – contact@desiweb.fr<br>
      Le responsable publication est une personne physique ou une personne morale.<br>
@@ -102,7 +105,7 @@
                     
      <li>- Données anonymisées de navigation (nombre de visites) sur les pages comme indicateur de performance pour améliorer le site et la communication de DesiWeb.</li>
 
-     <li>- Données personnelles (prénom, nom, mail, téléphone) fournis lors du remplissage du formulaire de contact dans l'unique finalité de la demande de services formulés par l'utilisateur.</li>
+     <li>- Données personnelles (prénom, nom, mail, téléphone) fournis lors du remplissage du formulaire de contact dans l'unique finalité de la demande de services formulée par l'utilisateur.</li>
 
      </ul>
 
