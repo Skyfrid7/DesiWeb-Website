@@ -1,12 +1,28 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="fr">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <!-- Primary Meta Tags -->
         <title>DesiWeb - @yield('title')</title>
+        <meta name="title" content="DesiWeb - @yield('title')">
         <meta name="description" content="@yield('description')">
         @yield('noindex')
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://www.desiweb.fr/">
+        <meta property="og:title" content="DesiWeb - Développement Web: Création de sites internet sur mesure">
+        <meta property="og:description" content="Guillaume Sutty, développeur web freelance depuis 3 ans basé à Belfort. Je réalise des sites de tous types: vitrine, e-commerce, blog, site personnel.">
+        <meta property="og:image" content="https://www.desiweb.fr/assets/img/Desiweb-2-original.jpg">
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://www.desiweb.fr/">
+        <meta property="twitter:title" content="DesiWeb - Développement Web: Création de sites internet sur mesure">
+        <meta property="twitter:description" content="Guillaume Sutty, développeur web freelance depuis 3 ans basé à Belfort. Je réalise des sites de tous types: vitrine, e-commerce, blog, site personnel.">
+        <meta property="twitter:image" content="https://www.desiweb.fr/assets/img/Desiweb-2-original.jpg">
 
         <!-- CSRF Token -->
         <meta name="csrf-token" content="{{ csrf_token() }}">
