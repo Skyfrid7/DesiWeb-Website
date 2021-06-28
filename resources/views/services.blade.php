@@ -16,7 +16,7 @@
           <svg viewBox="0 0 679 689" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
                <path d="M104.076 49.3845C-88.4146 136.939 79.2385 234.661 9.80691 483.768C-59.6247 732.875 257.146 587.073 408.528 670.702C559.911 754.331 734.083 532.386 662.355 387.176C590.627 241.966 706.95 221.104 632.437 108.696C557.925 -3.71303 296.567 -38.1701 104.076 49.3845Z" fill="#2CA1E2"/>
           </svg>
-          <img src="{{ asset('assets/img/services-img.png') }}" alt="image d'une application en construction">
+          <img class="welcome-img" src="{{ asset('assets/img/services-img.png') }}" alt="image d'une application en construction">
      </div>
 
 </section>
