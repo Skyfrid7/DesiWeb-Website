@@ -17,7 +17,7 @@
           <img src="{{ asset('assets/img/home-img.png') }}" alt="image d'un développeur en train de coder">
      </div>
 
-     <video src="{{ asset('assets/vid/whitebars.mp4') }}" muted preload="none" loop autoplay></video>
+     <img class="landing-wave" src="{{ asset('assets/svg/landing-wave.svg') }}" alt="vague de design en fond">
 
 </section>
 
