@@ -70,6 +70,13 @@
      }
 }
 
+@media screen and (max-width: 1250px) {
+     .landing-wave {
+          top: 14vh;
+          height: 86vh;
+          width: 124vw;
+     }
+}
 
 @media screen and (max-width: 1200px) {
      .text-infos {
@@ -88,6 +95,12 @@
           }
      }
 }
+@media screen and (max-width: 1250px) {
+     .landing-wave {
+          display: none;
+     }
+}
+
 @media screen and (max-width: 500px) {
      .text-infos .text-infos-container .text-content {
           margin: 0 0 5vh;
