@@ -17,9 +17,9 @@
           <img src="{{ asset('assets/img/home-img.png') }}" alt="image d'un développeur en train de coder">
      </div>
 
-     <img class="landing-wave" src="{{ asset('assets/svg/landing-wave.svg') }}" alt="vague de design en fond">
-
 </section>
+
+<img class="landing-wave" src="{{ asset('assets/svg/landing-wave.svg') }}" alt="vague de design en fond">
 
 <section class="dev-banner">
 
