@@ -19,7 +19,9 @@
 
 </section>
 
-<img class="landing-wave" src="{{ asset('assets/svg/landing-wave.svg') }}" alt="vague de design en fond">
+<svg class="landing-wave" viewBox="0 0 1079 892" fill="none" xmlns="http://www.w3.org/2000/svg">
+     <path d="M704.5 88.4999C526.274 75.6928 402 -5.49968 336 116.5C270 238.5 380 511 336 667C292 823 70.1107 890.866 0 891.5H1080V0.499957C949 -4.00007 882.726 101.307 704.5 88.4999Z" fill="#F1F1F1"/>
+</svg>
 
 <section class="dev-banner">
 
