@@ -101,6 +101,11 @@ letter-spacing: .2px;
 
      .landing-img {
           transform: translateY(-3vh);
+          svg {
+               width: 45vw;
+               height: 50vh;
+               z-index: -1;
+          }
           img {
                width: 40vw;
                height: auto;
