@@ -112,7 +112,7 @@
 
             </div>
 
-            <img class="portrait" src="{{ asset("assets/img/photo-portrait.jpg") }}" alt="Photo de moi">
+            <img class="portrait" src="{{ asset("assets/img/photo-portrait-guillaume.jpg") }}" alt="Photo portrait de moi">
 
         </div>
 
