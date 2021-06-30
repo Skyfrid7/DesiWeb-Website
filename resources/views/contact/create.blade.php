@@ -108,7 +108,7 @@
             </div>
     
             <div class="texts">
-                <span class="belfort">Région de Belfort (90)<br><span class="reminder"><img src="{{ asset("assets/svg/circle-solid.svg") }}" alt="Icône rond vert de disponibilité">Disponible à distance dans toute la France</span></span>
+                <span class="belfort">Région de Belfort (90)<br><span id="reminder"><img src="{{ asset("assets/svg/circle-solid.svg") }}" alt="Icône rond vert de disponibilité">Disponible à distance dans toute la France</span></span>
                 <a href="tel:0781074110">07 81 07 41 10</a>
                 <a href="mailto:contact@desiweb.fr">contact@desiweb.fr</a>
                 <a href="https://twitter.com/DesiWeb2">@DesiWeb2</a>

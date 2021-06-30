@@ -166,27 +166,26 @@
                      line-height: 30px;
                      font-weight: 600;
                 }
-                .belfort {
-                    display: flex;
-                    flex-direction: column;
-                    margin-bottom: -18px;
-
-                    .reminder {
-                        display: flex;
-                        flex-direction: row;
-                        align-items: center;
-                        font-size: 14px;
-                        line-height: 18px;
-                        color: rgb(7, 207, 7);
-
-                        img {
-                            height: 14px;
-                            margin-right: 5px;
-                        }
-                    }
-                }
            }
         }
+    }
+}
+.belfort {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -18px;
+}
+#reminder {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgb(7, 207, 7);
+
+    img {
+        height: 14px;
+        margin-right: 5px;
     }
 }
 

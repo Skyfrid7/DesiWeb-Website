@@ -90,7 +90,7 @@
 
         <div class="footer-pre-banner">
 
-            <div class="footer-infos-container">
+            <div class="footer-infos-container contact-coo">
 
                 <div class="infos-wrapper">
 
@@ -101,7 +101,7 @@
                     </div>
                     
                     <div class="texts">
-                        <span>Région de Belfort (90)</span>
+                        <span class="belfort">Région de Belfort (90)<br><span id="reminder"><img src="{{ asset("assets/svg/circle-solid.svg") }}" alt="Icône rond vert de disponibilité">Disponible à distance</span></span>
                         <a href="tel:0781074110">07 81 07 41 10</a>
                         <a href="mailto:contact@desiweb.fr">contact@desiweb.fr</a>
                     </div>
@@ -111,8 +111,18 @@
                 <a href="{{ route('contact.create') }}" class="btn footer-btn">Me contacter</a>
 
             </div>
+            
+            <div class="footer-infos-container devis-container">
+                <img src="{{ asset('assets/svg/file-invoice-solid.svg') }}" alt="Icône de Devis">
+                <h3>Devis en 48h</h3>
+                <div class="cc-container">
+                    <div><img src="{{ asset('assets/svg/check-solid.svg') }}" alt="Icône de Devis"><span>Réponse rapide</span></div>
+                    <div><img src="{{ asset('assets/svg/check-solid.svg') }}" alt="Icône de Devis"><span>Prix attractifs</span></div>
+                    <div><img src="{{ asset('assets/svg/check-solid.svg') }}" alt="Icône de Devis"><span>Site sur-mesure</span></div>
+                    <div><img src="{{ asset('assets/svg/check-solid.svg') }}" alt="Icône de Devis"><span>Référencement optimisé</span></div>
+                </div>
 
-            <img class="portrait" src="{{ asset("assets/img/photo-portrait-guillaume.jpg") }}" alt="Photo portrait de moi">
+            </div>
 
         </div>
 

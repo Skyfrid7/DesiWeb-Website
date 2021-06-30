@@ -121,6 +121,47 @@ nav {
      background-repeat: no-repeat;
      background-size: cover;
 
+     .contact-coo {
+          background: linear-gradient(to bottom right, #0C7DBB, #43BCFF);
+     }
+     .devis-container {
+          background-color: $third;
+          padding: 2vw 0;
+
+          img {
+               height: 70px;
+               width: auto;
+          }
+          h3 {
+               font-weight: 700;
+               font-size: 1.7em;
+               color: $black;
+          }
+          .cc-container {
+               width: 100%;
+               padding: 0 4vw;
+               display: flex;
+               flex-direction: column;
+               justify-content: space-evenly;
+               align-items: flex-start;
+               height: 45%;
+
+               div {
+                    display: flex;
+                    flex-direction: row;
+
+                    img {
+                         height: 30px;
+                         width: auto;
+                         margin-right: 1vw;
+                    }
+                    span {
+                         color: #505153;
+                    }
+               }
+          }
+     }
+
      .footer-infos-container {
           width: 500px;
           height: 500px;
@@ -128,7 +169,12 @@ nav {
           flex-direction: column;
           justify-content: space-evenly;
           align-items: center;
-          background: linear-gradient(to bottom right, #0C7DBB, #43BCFF);
+
+          span, a {
+               font-size: 18px;
+               line-height: 30px;
+               font-weight: 600;
+          }
 
           .infos-wrapper {
                display: flex;
@@ -141,12 +187,12 @@ nav {
                     flex-direction: column;
                     justify-content: space-between;
                     margin-right: 15px;
-
                     img {
                          height: 30px;
                          width: auto;
                     }
                }
+
                .texts {
                     display: flex;
                     flex-direction: column;
@@ -156,9 +202,6 @@ nav {
 
                     span, a {
                          color: $white;
-                         font-size: 18px;
-                         line-height: 30px;
-                         font-weight: 600;
                     }
                }
           }
@@ -175,11 +218,7 @@ nav {
                }
           }
      }
-     .portrait {
-          width: 500px;
-          height: 500px;
-          object-fit: cover;
-     }
+     
 }
 footer {
      width: 100%;
@@ -328,24 +367,26 @@ footer {
 //footer pre-banner
 @media (max-width: 1000px) {
      .footer-pre-banner {
-          flex-direction: column;
+          flex-direction: column-reverse;
           background-image: none;
 
           .footer-infos-container {
                width: 100%;
+               padding: 0 20px;
 
                .footer-btn {
                     padding: 2vh 8vw;
                }
           }
-          .portrait {
-               display: none;
-          }
+          
      }
 }
 @media (max-width: 600px) {
      .footer-pre-banner .footer-infos-container {
           height: 400px;
+          .infos-wrapper {
+               height: 45%;
+          }
      }
 }
 @media (max-width: 360px) {
