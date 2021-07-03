@@ -38,20 +38,32 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 
         <!-- Js -->
-        <script src="{{ asset('assets/js/main.js') }}"></script>
+        <script defer src="{{ asset('assets/js/main.js') }}"></script>
+
+        <!-- AnimateOnScroll -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script async src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-E96MS6BFB6"></script>
         <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+            window.onload = function() {
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
 
-        gtag('config', 'G-E96MS6BFB6', { 'anonymize_ip': true });
+                gtag('config', 'G-E96MS6BFB6', { 'anonymize_ip': true });
+            };
         </script>
     </head>
 
     <body>
+
+        <script>
+            window.onload = function() {
+                AOS.init();
+            };
+        </script>
 
         <nav id="navbar">
 

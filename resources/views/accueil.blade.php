@@ -7,10 +7,12 @@
 
 <section class="landing-page">
 
-     <div class="landing-text">
-          <h1>Freelance en<br><span class="blue">développement web</span><br>& <span class="blue">web design</span></h1>
-          <h2 class="subtitle">Construis ton site, bâtis ton avenir</h2>
-          <a href="{{ route('services') }}" class="btn">Découvrir nos services</a>
+     <div data-aos="fade-right">
+          <div class="landing-text">
+               <h1>Freelance en<br><span class="blue">développement web</span><br>& <span class="blue">web design</span></h1>
+               <h2 class="subtitle">Construis ton site, bâtis ton avenir</h2>
+               <a href="{{ route('services') }}" class="btn">Découvrir nos services</a>
+          </div>
      </div>
 
      <div class="landing-img">

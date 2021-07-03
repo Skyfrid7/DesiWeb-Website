@@ -7,9 +7,11 @@
 
 <section class="landing-page">
 
-     <div class="landing-text">
-          <h1>Mes <span class="blue">services</span>: vous<br>proposer le <span class="blue">meilleur</span></h1>
-          <h2 class="subtitle">Découvrez ma façon de travailler, mêlant rigueur et innovation</h2>
+     <div data-aos="fade-right">
+          <div class="landing-text">
+               <h1>Mes <span class="blue">services</span>: vous<br>proposer le <span class="blue">meilleur</span></h1>
+               <h2 class="subtitle">Découvrez ma façon de travailler, mêlant rigueur et innovation</h2>
+          </div>
      </div>
 
      <div class="landing-img" id="services-img">
@@ -42,18 +44,26 @@
 
           <div class="texts">
 
-               <h3>Conception et maquettage</h3>
-               <p>Nous échangeons ensemble sur vos besoins pour que je puisse déterminer les fonctionnalités à mettre en place. Ensuite, je conçois une maquette visuelle du site qui sera traduite en code une fois vos retours et améliorations faites.</p>
+               <div data-aos="fade-left">
+                    <h3>Conception et maquettage</h3>
+                    <p>Nous échangeons ensemble sur vos besoins pour que je puisse déterminer les fonctionnalités à mettre en place. Ensuite, je conçois une maquette visuelle du site qui sera traduite en code une fois vos retours et améliorations faites.</p>     
+               </div>
+               
+               <div data-aos="fade-left">
+                    <h3>Développement du site</h3>
+                    <p>Je procède au développement du site selon les technologies choisies, en respectant les standards en vigueur. Vous êtes régulièrement tenu informé de l’avancée du travail selon le moyen que vous préférez.</p>     
+               </div>
+               
+               <div data-aos="fade-left">
+                    <h3>Livraison et mise en ligne du projet</h3>
+                    <p>Votre projet est enfin terminé et prêt à l'emploi! Je vous guide pour l’achat de l’hébergement, du nom de domaine et je m’occupe de la mise en ligne.</p>
+               </div>
 
-               <h3>Développement du site</h3>
-               <p>Je procède au développement du site selon les technologies choisies, en respectant les standards en vigueur. Vous êtes régulièrement tenu informé de l’avancée du travail selon le moyen que vous préférez.</p>
-
-               <h3>Livraison et mise en ligne du projet</h3>
-               <p>Votre projet est enfin terminé et prêt à l'emploi! Je vous guide pour l’achat de l’hébergement, du nom de domaine et je m’occupe de la mise en ligne.</p>
-
-               <h3>Support et maintenance</h3>
-               <p>Je réalise les mises à jour nécessaires pour le fonctionnement continu et la sécurité de votre nouveau site internet, ainsi que des modifications mineures que vous pourriez suggérer.</p>
-
+               <div data-aos="fade-left">
+                    <h3>Support et maintenance</h3>
+                    <p>Je réalise les mises à jour nécessaires pour le fonctionnement continu et la sécurité de votre nouveau site internet, ainsi que des modifications mineures que vous pourriez suggérer.</p>
+               </div>
+               
           </div>
 
      </div>
@@ -65,7 +75,7 @@
 <section class="text-infos services-infos">
 
      <img src="{{ asset('assets/svg/services-first-line.svg') }}" alt="ligne avec des icones illustrant les textes">
-     <div class="text-infos-container">
+     <div class="text-infos-container" data-aos="fade-right">
           <div class="text-content">
                <h4>Conception fonctionnelle</h4>
                <span>Je vous aide à développer vos idées en en soumettant les limites et en abordant des aspects souvent oubliés dans l'imagination d'un site.<br>Je met à contribution mon expérience dans la rédaction de votre cahier des charges si vous le désirez.
@@ -84,7 +94,7 @@
      </div>
 
      <img src="{{ asset('assets/svg/services-second-line.svg') }}" alt="ligne avec des icones illustrant les textes" class="second-services-infos">
-     <div class="text-infos-container">
+     <div class="text-infos-container" data-aos="fade-left">
           <div class="text-content">
                <h4>Technologies du moment</h4>
                <span>L’expérience utilisateur étant ma priorité, votre site sera au top de sa performance grâce à mes outils qui en améliore la qualité. Responsive, Flexbox, Grid, WebP, Lazyloading, Web Sockets font partie de mon quotidien.
