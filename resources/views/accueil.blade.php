@@ -35,7 +35,7 @@
 <section class="text-infos accueil-infos">
 
      <img src="{{ asset('assets/svg/story-line.svg') }}" alt="ligne avec des icones illustrant les textes">
-     <div class="text-infos-container">
+     <div class="text-infos-container" data-aos="fade-left">
           <div class="text-content">
                <h4>Qui suis-je ?</h4>
                <span>Guillaume Sutty, freelance en développement web depuis 3 ans à Belfort.<br>Passionné d’informatique, je me suis formé pendant plus d’un an aux langages du web. J’ai ensuite développé mes compétences au cours des différentes missions qui m’ont été données de réaliser.</span>
