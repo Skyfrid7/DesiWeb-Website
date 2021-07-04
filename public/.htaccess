@@ -9,7 +9,7 @@
     RewriteRule (.*) https://www.desiweb.fr%{REQUEST_URI} [R=301,L]
 
     RewriteCond %{THE_REQUEST} ^.*/index\.php
-    RewriteRule ^index.php/(.*)$ /$1 [R=301,L]
+    RewriteRule ^index.php(.*)$ $1 [R=301,L]
 
     # Handle Authorization Header
     RewriteCond %{HTTP:Authorization} .
