@@ -24,6 +24,10 @@ Route::view('mentions-legales', 'mentions-legales')->name('mentions-legales');
 
 Route::view('CGV', 'CGV')->name('CGV');
 
+Route::fallback(function() {
+  return redirect('erreur-404');
+});
+
 //Contact
 Route::get('contact', [ContactController::class, 'create'])->name('contact.create');
 Route::post('contact', [ContactController::class, 'store'])->name('contact.store');
