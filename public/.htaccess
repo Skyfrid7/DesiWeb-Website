@@ -12,7 +12,7 @@
     RewriteRule ^index.php/(.*)$ /$1 [R=301,L]
 
     RewriteCond %{THE_REQUEST} ^.*/index\.php
-    RewriteRule ^index.php(.*)$ https://www.desiweb.fr [R=301,L]
+    RewriteRule ^ https://www.desiweb.fr [R=301,L]
 
     # Handle Authorization Header
     RewriteCond %{HTTP:Authorization} .
