@@ -87,6 +87,20 @@
                     </div>
                     @enderror
                 </div>
+                @php
+                    $integer1 = random_int(1,9);
+                    $integer2 = random_int(1,$integer1);
+                @endphp
+                <input type="hidden" name="compute_result" value="{{ intval($integer1 - $integer2) }}">
+                <div class="form-group">
+                    <input type="number" class="form-control @error('compute') is-invalid @enderror" name="compute" value="{{ old('compute') }}" required>
+                    <span>Combien font {{ $integer1 }} moins {{ $integer2 }}? *</span>
+                    @error('compute')
+                    <div class="invalid-feedback">
+                        {{ $errors->first('compute') }}
+                    </div>
+                    @enderror
+                </div>
     
                 <button type="submit" class="btn">Envoyer</button>
     

@@ -21,7 +21,9 @@ class ContactController extends Controller
             'email' => 'required|email',
             'tel' => 'required|numeric',
             'subject' => 'required',
-            'message' => 'required'
+            'message' => 'required',
+            'compute_result' => 'required|integer',
+            'compute' => 'required|integer|same:compute_result',
         ]);
 
         Mail::to('contact@desiweb.fr')->send(new ContactMail($data));
